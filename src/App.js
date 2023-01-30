@@ -2,8 +2,9 @@ import { useState } from 'react';
 import Navbar from './components/navbar'
 import HomePage from './pages/home'
 import PortfolioPage from './pages/portfolio';
-import Contact from './pages/Contact';
+import Contact from './pages/contact';
 import Resume from './pages/Resume';
+import Footer from './components/Footer'
 
 function App() {
     const [view, setView] = useState('home')
@@ -29,6 +30,10 @@ function App() {
             setView={setView}
             />
             { renderView() }
+            <Footer
+            view={view}
+            setView={setView} 
+            />
         </>
     )
 }

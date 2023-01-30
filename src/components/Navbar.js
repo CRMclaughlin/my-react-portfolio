@@ -1,5 +1,4 @@
 const Navbar = ({ view, setView }) => {
-console.log(view)
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -12,7 +11,7 @@ console.log(view)
               className={`nav-link ${view === 'home' ? 'active fw-bold' : ''}`}
               href="#"
             >
-              About Me
+              <i class="bi bi-info-circle-fill"></i> About Me
             </a>
           </li>
           <li className="nav-item">
@@ -20,7 +19,7 @@ console.log(view)
               onClick={() => setView('portfolio')}
               className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`}
             >
-              Portfolio
+              <i class="bi bi-collection"></i> Portfolio
             </a>
           </li>
           <li className="nav-item">
@@ -29,7 +28,7 @@ console.log(view)
               className={`nav-link ${view === 'resume' ? 'active fw-bold' : ''}`}
               href="#"
             >
-              Resume
+              <i class="bi bi-person-lines-fill"></i> Resume
             </a>
           </li>
           <li className="nav-item">
@@ -38,7 +37,7 @@ console.log(view)
               className={`nav-link ${view === 'Contact' ? 'active fw-bold' : ''}`}
               href="#"
             >
-              Contact
+              <i class="bi bi-person-rolodex"></i> Contact
             </a>
           </li>
         </ul>
