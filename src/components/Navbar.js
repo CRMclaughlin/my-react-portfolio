@@ -1,37 +1,50 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from './utils/helpers';
+const Navbar = ({ view, setView }) => {
+console.log(view)
 
-function Nav(props) {
-  const {
-    pages = [],
-    setCurrentPage,
-    currentPage,
-  } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
-  }, [currentPage]);
-
-  return (    
-      <nav>
-        <ul className="flex-row">
-          {pages.map((Page) => (
-            <li
-              className={`mx-5 ${
-                currentPage.name === Page.name && 'navActive'
-                }`}
-              key={Page.name}
+  return (
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">CRMcLaughlin</a>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a
+              onClick={() => setView('home')}
+              className={`nav-link ${view === 'home' ? 'active fw-bold' : ''}`}
+              href="#"
             >
-              <span
-                onClick={() => setCurrentPage(Page)}
-              >
-                {capitalizeFirstLetter(Page.name)}
-              </span>
-            </li>
-          ))}
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              onClick={() => setView('portfolio')}
+              className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`}
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              onClick={() => setView('resume')}
+              className={`nav-link ${view === 'resume' ? 'active fw-bold' : ''}`}
+              href="#"
+            >
+              Resume
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              onClick={() => setView('contact')}
+              className={`nav-link ${view === 'Contact' ? 'active fw-bold' : ''}`}
+              href="#"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
-      </nav>
-  );
+      </div>
+    </nav>
+  )
 }
 
-export default Nav;
+export default Navbar
