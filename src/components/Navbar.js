@@ -19,7 +19,7 @@ const Navbar = ({ view, setView }) => {
               onClick={() => setView('portfolio')}
               className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`}
             >
-              <i class="bi bi-collection"></i> Portfolio
+              <i className="bi bi-collection"></i> Portfolio
             </a>
           </li>
           <li className="nav-item">
@@ -28,7 +28,7 @@ const Navbar = ({ view, setView }) => {
               className={`nav-link ${view === 'resume' ? 'active fw-bold' : ''}`}
               href="#"
             >
-              <i class="bi bi-person-lines-fill"></i> Resume
+              <i className="bi bi-person-lines-fill"></i> Resume
             </a>
           </li>
           <li className="nav-item">
@@ -37,7 +37,7 @@ const Navbar = ({ view, setView }) => {
               className={`nav-link ${view === 'Contact' ? 'active fw-bold' : ''}`}
               href="#"
             >
-              <i class="bi bi-person-rolodex"></i> Contact
+              <i className="bi bi-person-rolodex"></i> Contact
             </a>
           </li>
         </ul>
