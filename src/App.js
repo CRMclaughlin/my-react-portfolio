@@ -29,10 +29,10 @@ function App() {
             view={view}
             setView={setView}
             />
-            { renderView() }
+            { renderView() }  
             <Footer
             view={view}
-            setView={setView} 
+            setView={setView}
             />
         </>
     )
