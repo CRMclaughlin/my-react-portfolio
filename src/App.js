@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Navbar from './components/navbar'
+import Header from './components/Header'
 import HomePage from './pages/home'
-import PortfolioPage from './pages/portfolio';
+import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import Resume from './pages/Resume';
 import Footer from './components/Footer'
@@ -13,7 +13,7 @@ function App() {
         if (view === 'home') {
             return <HomePage />
         } else if (view === 'portfolio') {
-            return <PortfolioPage />
+            return <Portfolio />
         } else if (view === 'contact') {
             return <Contact />
         } else if (view === 'resume') {
@@ -25,7 +25,7 @@ function App() {
 
     return (
         <>
-            <Navbar
+            <Header
             view={view}
             setView={setView}
             />

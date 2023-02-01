@@ -1,5 +1,11 @@
-const PortfolioPage = props => {
-    return 'PortfolioPage'
+import Projects from '../components/Projects'
+
+const Portfolio = props => {
+    return (
+        <div>
+            <Projects />
+        </div>
+    )
 }
 
-export default PortfolioPage
+export default Portfolio

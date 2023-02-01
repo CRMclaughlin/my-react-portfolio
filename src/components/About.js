@@ -4,13 +4,13 @@ import Headshot from '../assets/resized.jpg'
 function About() {
   return (
     
-    <div class="container text-center">
-  <div class="row align-items-start">
-    <div class="col">
+    <div className="container text-center">
+  <div className="row align-items-start">
+    <div className="col">
     <h2> Hello, I'm Christopher McLaughlin</h2> 
     </div>
-    <div class="col">
-      <img src={Headshot}/>
+    <div className="col">
+      <img src={Headshot} alt="Christopher McLaughlin Headshot"/>
       
       <p></p>
     </div>
