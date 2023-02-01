@@ -17,8 +17,8 @@ function Projects() {
                         alt="AI Image Generator Website"
                     />
                     <Carousel.Caption>
-                        <h3 className="text-secondary">AI Image Generator Using DALL-E</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className="text-secondary fw-bolder text-decoration-underline">AI Image Generator Using DALL-E</h3>
+                        <p className="text-secondary fw-bolder">This is a simple image generator built with Node.js and Express that uses OpenAI's DALL_E models</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -31,8 +31,8 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="text-left">AI Codex Using OpenAI</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className="text-decoration-underline">AI Codex Using OpenAI</h3>
+                        <p>This is a simple web app that use OpenAI chatGPT to help you code!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -44,9 +44,9 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3>House Rules</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        <h3 className="h-25 d-inline-block text-dark bg-light fw-bolder text-decoration-underline">House Rules</h3>
+                        <p className="h-25 d-inline-block text-dark bg-light">
+                        This web app lets a user create an account, read posts about gaming, and write thier own posts.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -58,9 +58,9 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Mood for Food</h3>
+                        <h3 className="text-decoration-underliner">Mood for Food</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            This is a simple web app that allows a user to pick their desired date that returns a daily horoscope and food suggestion
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
