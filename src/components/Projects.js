@@ -44,7 +44,7 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="h-25 d-inline-block text-dark bg-light fw-bolder text-decoration-underline">House Rules</h3>
+                        <h3 className="text-dark bg-light fw-bolder text-decoration-underline">House Rules</h3>
                         <p className="h-25 d-inline-block text-dark bg-light">
                         This web app lets a user create an account, read posts about gaming, and write thier own posts.
                         </p>
