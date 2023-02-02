@@ -28,7 +28,8 @@ This is my React.js portfolio.
 
   
 ## Demo
-
+   
+<img width="1500" alt="Screenshot 2023-02-01 at 9 41 15 PM" src="https://user-images.githubusercontent.com/111208223/216228721-e4db45b9-fe8a-4d4d-a5d7-273f293b3a0a.png">
 
 ## Todo
 * Add more personal css stylings
