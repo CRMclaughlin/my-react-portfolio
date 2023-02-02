@@ -1,7 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://crmclaughlin.github.io/my-react-portfolio",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^16.13.1",
