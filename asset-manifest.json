@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/my-react-portfolio/static/js/main.9d8d6d63.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.9d8d6d63.chunk.js.map",
+    "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.ccffc217.js",
+    "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.ccffc217.js.map",
+    "static/js/2.b45665a3.chunk.js": "/my-react-portfolio/static/js/2.b45665a3.chunk.js",
+    "static/js/2.b45665a3.chunk.js.map": "/my-react-portfolio/static/js/2.b45665a3.chunk.js.map",
+    "index.html": "/my-react-portfolio/index.html",
+    "static/js/2.b45665a3.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.b45665a3.chunk.js.LICENSE.txt",
+    "static/media/AIcodex-min.f0ab20e9.png": "/my-react-portfolio/static/media/AIcodex-min.f0ab20e9.png",
+    "static/media/AIimageGen-min.ce3ab7b3.png": "/my-react-portfolio/static/media/AIimageGen-min.ce3ab7b3.png",
+    "static/media/HouseRules-min.91351637.png": "/my-react-portfolio/static/media/HouseRules-min.91351637.png",
+    "static/media/crm-resume.8c84b43e.png": "/my-react-portfolio/static/media/crm-resume.8c84b43e.png",
+    "static/media/mood4food.951bffde.png": "/my-react-portfolio/static/media/mood4food.951bffde.png",
+    "static/media/resized.05a5a644.jpg": "/my-react-portfolio/static/media/resized.05a5a644.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccffc217.js",
+    "static/js/2.b45665a3.chunk.js",
+    "static/js/main.9d8d6d63.chunk.js"
+  ]
+}
