@@ -1,4 +1,4 @@
-# Social Network Api
+# React Portfolio
 
 ## Table of Contents
   * [Description](#description)
