@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from './components/Header'
+import Navigation from './components/Navigation'
 import HomePage from './pages/home'
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
@@ -25,7 +25,7 @@ function App() {
 
     return (
         <>
-            <Header
+            <Navigation
             view={view}
             setView={setView}
             />
