@@ -35,6 +35,7 @@ This is my React.js portfolio.
 * Add more personal css stylings
 * Add animations from anime.js
 * Work on Resume to update with more qualifications in web development
+* Add more projects showing versitility
 
 
 ## License
