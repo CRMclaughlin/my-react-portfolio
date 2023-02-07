@@ -75,7 +75,7 @@ function Projects() {
                 <a className="btn btn-outline-light btn-floating m-1" href="https://house-rules.herokuapp.com/" target="_blank" role="button">
                     House Rules
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://kevinkraiss.github.io/mood-for-food/" target="_blank" role="button">
                     Mood for Food
                 </a>
             </div>
