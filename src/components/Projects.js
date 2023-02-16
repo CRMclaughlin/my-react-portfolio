@@ -4,6 +4,7 @@ import ImageGen from '../assets/AIimageGen-min.png'
 import Codex from '../assets/AIcodex-min.png'
 import House from '../assets/HouseRules-min.png'
 import Mood from '../assets/mood4food.png'
+import Social from '../assets/socialPostman.png'
 
 // Carousel from href=https://react-bootstrap.github.io/components/carousel/
 function Projects() {
@@ -64,6 +65,20 @@ function Projects() {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Social}
+                        alt="House Rules Website"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className="text-dark fw-bolder text-decoration-underline">Social Network API</h3>
+                        <p className="h-25 d-inline-block text-dark">
+                          This is an API for a social network web app, where users can share thoughts, react to other friends thoughts, add, and delete friends.
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
             <div className="container text-center">
                 <section className="mb-4" />
@@ -77,6 +92,9 @@ function Projects() {
                 </a>
                 <a className="btn btn-outline-light btn-floating m-1" href="https://kevinkraiss.github.io/mood-for-food/" target="_blank" role="button">
                     Mood for Food
+                </a>
+                <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/CRMclaughlin/social-network-api" target="_blank" role="button">
+                    Social Network API
                 </a>
             </div>
         </div>

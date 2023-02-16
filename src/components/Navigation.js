@@ -18,6 +18,7 @@ const Navbar = ({ view, setView }) => {
             <a
               onClick={() => setView('portfolio')}
               className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`}
+              href="#"
             >
               <i className="bi bi-collection"></i> Portfolio
             </a>
