@@ -5,6 +5,7 @@ import Codex from '../assets/AIcodex-min.png'
 import House from '../assets/HouseRules-min.png'
 import Mood from '../assets/mood4food.png'
 import Social from '../assets/socialPostman.png'
+import Remember from '../assets/remember.png'
 
 // Carousel from href=https://react-bootstrap.github.io/components/carousel/
 function Projects() {
@@ -79,6 +80,20 @@ function Projects() {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Remember}
+                        alt="Remembrall Website"
+                    />
+
+                    <Carousel.Caption>
+                        <h3 className="text-dark fw-bolder text-decoration-underline">Remembrall</h3>
+                        <p className="h-25 d-inline-block text-dark">
+                        This is a group project with a MERN Stack (MongoDb, Express.js, Reactjs, Node.js) development. Uses a GraphQL API with Apollo Server.
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
             <div className="container text-center">
                 <section className="mb-4" />
@@ -95,6 +110,9 @@ function Projects() {
                 </a>
                 <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/CRMclaughlin/social-network-api" target="_blank" role="button">
                     Social Network API
+                </a>
+                <a className="btn btn-outline-light btn-floating m-1" href="https://lit-cove-97949.herokuapp.com/" target="_blank" role="button">
+                    Remembrall
                 </a>
             </div>
         </div>
