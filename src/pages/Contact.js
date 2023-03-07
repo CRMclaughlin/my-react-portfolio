@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from '../components/contact';
+import ContactForm from '../components/Contact/contact';
 
 
 function Contact() {

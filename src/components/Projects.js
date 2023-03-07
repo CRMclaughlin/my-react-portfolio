@@ -10,7 +10,7 @@ import Remember from '../assets/remember1.png'
 // Carousel from href=https://react-bootstrap.github.io/components/carousel/
 function Projects() {
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5' id='projects'>
             <Carousel slide={false}>
                 <Carousel.Item>
                     <img
