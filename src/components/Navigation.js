@@ -9,7 +9,7 @@ const Navbar = ({ view, setView }) => {
             <a
               onClick={() => setView('home')}
               className={`nav-link ${view === 'home' ? 'active fw-bold' : ''}`}
-              href="about"
+              href="#"
             >
               <i className="bi bi-info-circle-fill"></i> About Me
             </a>
@@ -18,7 +18,7 @@ const Navbar = ({ view, setView }) => {
             <a
               onClick={() => setView('portfolio')}
               className={`nav-link ${view === 'portfolio' ? 'active fw-bold' : ''}`}
-              href="portfolio"
+              href="#"
             >
               <i className="bi bi-collection"></i> Portfolio
             </a>
@@ -27,7 +27,7 @@ const Navbar = ({ view, setView }) => {
             <a
               onClick={() => setView('resume')}
               className={`nav-link ${view === 'resume' ? 'active fw-bold' : ''}`}
-              href="resume"
+              href="#"
             >
               <i className="bi bi-person-lines-fill"></i> Resume
             </a>
@@ -36,7 +36,7 @@ const Navbar = ({ view, setView }) => {
             <a
               onClick={() => setView('contact')}
               className={`nav-link ${view === 'Contact' ? 'active fw-bold' : ''}`}
-              href="contact"
+              href="#"
             >
               <i className="bi bi-person-rolodex"></i> Contact
             </a>
