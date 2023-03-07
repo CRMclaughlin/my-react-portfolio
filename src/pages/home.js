@@ -1,5 +1,5 @@
 import Container from '../components/container';
-import About from '../components/About';
+import About from '../components/About/About';
 
 
 const HomePage = props => {

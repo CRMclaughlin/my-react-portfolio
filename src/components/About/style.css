@@ -1,0 +1,14 @@
+img {
+    position: relative;
+    z-index: 100;
+}
+
+h2 {
+    position: relative;
+    z-index: 100;
+}
+
+p {
+    position: relative;
+    z-index: 100;
+}

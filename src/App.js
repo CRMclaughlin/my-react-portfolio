@@ -1,4 +1,6 @@
 import { useState } from 'react';
+
+import Particle from './components/Paritcles';
 import Navigation from './components/Navigation'
 import HomePage from './pages/home'
 import Portfolio from './pages/portfolio';
@@ -25,6 +27,7 @@ function App() {
 
     return (
         <>
+        <Particle />
             <Navigation
             view={view}
             setView={setView}
