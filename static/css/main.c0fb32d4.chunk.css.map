@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/About/style.css"],"names":[],"mappings":"AAUA,SACI,iBAAkB,CAClB,WACJ","file":"main.c0fb32d4.chunk.css","sourcesContent":["img {\n    position: relative;\n    z-index: 100;\n}\n\nh2 {\n    position: relative;\n    z-index: 100;\n}\n\np {\n    position: relative;\n    z-index: 100;\n}"]}
