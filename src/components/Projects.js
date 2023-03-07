@@ -97,21 +97,21 @@ function Projects() {
             </Carousel>
             <div className="container text-center">
                 <section className="mb-4" />
-                <a className="btn btn-outline-light btn-floating m-1" href="https://still-scrubland-96431.herokuapp.com/" target="_blank" rel="noreferer" role="button"> AI Image Generator
+                <a className="btn btn-outline-light btn-floating m-1" href="https://still-scrubland-96431.herokuapp.com/" target="_blank" rel="noopener" role="button"> AI Image Generator
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://guarded-sands-43499.herokuapp.com/" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://guarded-sands-43499.herokuapp.com/" target="_blank" rel="noopener" role="button">
                     AI Codex
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://house-rules.herokuapp.com/" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://house-rules.herokuapp.com/" target="_blank" rel="noopener" role="button">
                     House Rules
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://kevinkraiss.github.io/mood-for-food/" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://kevinkraiss.github.io/mood-for-food/" target="_blank" rel="noopener" role="button">
                     Mood for Food
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/CRMclaughlin/social-network-api" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/CRMclaughlin/social-network-api" target="_blank" rel="noopener" role="button">
                     Social Network API
                 </a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://lit-cove-97949.herokuapp.com/" target="_blank" role="button">
+                <a className="btn btn-outline-light btn-floating m-1" href="https://lit-cove-97949.herokuapp.com/" target="_blank" rel="noopener" role="button">
                     Remembrall
                 </a>
             </div>
